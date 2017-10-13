@@ -1,10 +1,11 @@
 {
   "name": "stylelint-config-uclaradio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-scss": "^2.1.0"
   }
 }

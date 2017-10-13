@@ -2,7 +2,10 @@
 
 module.exports = {
   extends: 'stylelint-config-recommended',
+  plugins: ['stylelint-scss'],
   rules: {
+    'at-rule-no-unknown': null,
+    'scss/at-rule-no-unknown': true,
     'font-family-name-quotes': 'always-where-recommended',
     'function-url-quotes': 'always',
     'selector-attribute-quotes': 'always',
