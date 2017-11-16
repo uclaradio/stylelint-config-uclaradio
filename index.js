@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: 'stylelint-config-recommended',
+  extends: 'stylelint-config-standard',
   plugins: ['stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
