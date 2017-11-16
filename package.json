@@ -1,8 +1,17 @@
 {
-  "name": "stylelint-config-uclaradio",
+  "name": "@uclaradio/stylelint-config-uclaradio",
   "version": "1.0.5",
   "description": "An eslint configuration used by UCLA Radio.",
-  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "author":
+    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uclaradio/stylelint-config-uclaradio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uclaradio/stylelint-config-uclaradio/issues"
+  },
+  "homepage": "https://github.com/uclaradio/stylelint-config-uclaradio#readme",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
