@@ -7,7 +7,8 @@ after_script: greenkeeper-lockfile-upload
 deploy:
   provider: npm
   email: radio.web@media.ucla.edu
-  api_key: "$NPM_TOKEN"
+  api_key:
+    secure: InACjGM18jNK0HCUOFd/z1jFgPXqyImuf4gg644K4SbrdnuDt4vuv5suvGhU73HHPCxU6bg76NpItLAag+86bXOS23gSNk2riOIkhO08OEouyokPPZiEot8ekmxEeSpWsfyf667CnQtudVMC5wcoEdoiqlnV8W8F9kDXdAnl0hObbg0T8yxyDKn+ixNr7rqtGullO7O07bq9gh1zsIMNy/Suu0gJe97QDPKFJVoa3Y84yxGGnt6W0EPnaSxpO72qPXGHO5BbDA6Xx4xjgjxAYXEbMFMglmwfu3wJt/YJTIZAe7B5VVhQIVt1UCqHrksCrkbCuG8YeBuXZdG5623iHjMo85zOp+O/p9d1BsqkeiidJZY2hevQ89o4z889cGi/wbJqXMykUszKOiTEvIqLbt2q6EBgpmQy74b5evodcUQXLF9Uocxwm5+TyLpMB/gBpr/NuRMMHzapgdw5RSmJIEIHXzMyq2qox6jGWEhVuMugSDvOoVlc6ul7nnx5JwfNPjhMOuPLIWPSGny9t4vbar7Lbmuh2vzJ2wSqTMdJp2xXWuX7PpA+qcTJXVB5g/Jr1fDoSN3muOxXIkj8ODCZoRYGE5RPZmSbleUYgyc49D+n/g/71nFgywGeloVW0mdPF8fZRK9Ek0KzB2653Y5Oc6TmKOmNLPUEyNlw8cxYH3o=
   on:
     tags: true
     repo: uclaradio/stylelint-config-uclaradio
