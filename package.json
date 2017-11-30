@@ -1,9 +1,8 @@
 {
   "name": "stylelint-config-uclaradio",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An stylelint configuration used by UCLA Radio.",
-  "author":
-    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uclaradio/stylelint-config-uclaradio.git"
@@ -17,7 +16,10 @@
   "scripts": {
     "release": "yarn version; git town sync",
     "lint-staged": {
-      "*.{json,md}": ["prettier --write", "git add"]
+      "*.{json,md}": [
+        "prettier --write",
+        "git add"
+      ]
     }
   },
   "devDependencies": {
