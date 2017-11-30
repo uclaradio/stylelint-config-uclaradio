@@ -1,5 +1,5 @@
 {
-  "name": "@uclaradio/stylelint-config-uclaradio",
+  "name": "stylelint-config-uclaradio",
   "version": "1.0.5",
   "description": "An eslint configuration used by UCLA Radio.",
   "author":
