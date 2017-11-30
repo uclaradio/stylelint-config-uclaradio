@@ -1,8 +1,9 @@
 {
   "name": "stylelint-config-uclaradio",
   "version": "1.0.6",
-  "description": "An eslint configuration used by UCLA Radio.",
-  "author": "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
+  "description": "An stylelint configuration used by UCLA Radio.",
+  "author":
+    "UCLA Radio Web Department <radio.web@media.ucla.edu> (http://uclaradio.com)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uclaradio/stylelint-config-uclaradio.git"
@@ -10,14 +11,20 @@
   "bugs": {
     "url": "https://github.com/uclaradio/stylelint-config-uclaradio/issues"
   },
-  "homepage": "https://github.com/uclaradio/stylelint-config-uclaradio#readme",
+  "homepage": "https://github.com/uclaradio/eslint-config-uclaradio#readme",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "release": "yarn version; git town sync"
+    "release": "yarn version; git town sync",
+    "lint-staged": {
+      "*.{json,md}": ["prettier --write", "git add"]
+    }
   },
   "devDependencies": {
     "greenkeeper-lockfile": "^1.12.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2",
     "standard-version": "^4.2.0"
   },
   "dependencies": {
