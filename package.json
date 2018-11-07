@@ -26,7 +26,7 @@
     "greenkeeper-lockfile": "^1.12.0",
     "husky": "^0.14.3",
     "lint-staged": "^5.0.0",
-    "prettier": "^1.8.2",
+    "prettier": "^1.15.0",
     "standard-version": "^4.2.0"
   },
   "dependencies": {
